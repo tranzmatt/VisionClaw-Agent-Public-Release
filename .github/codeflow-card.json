@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "at": "2026-07-01T08:31:31.418Z",
+      "sha": "c7bad1519207f041f39970ebcddbf85f60f3c16d",
+      "pr": null,
+      "actor": "tranzmatt",
+      "files": 1138,
+      "functions": 5200,
+      "loc": 356926,
+      "languages": 17,
+      "topLanguages": [
+        {
+          "ext": "ts",
+          "pct": 75,
+          "lines": 266725
+        },
+        {
+          "ext": "tsx",
+          "pct": 15,
+          "lines": 53360
+        },
+        {
+          "ext": "json",
+          "pct": 6,
+          "lines": 21684
+        },
+        {
+          "ext": "md",
+          "pct": 3,
+          "lines": 10502
+        },
+        {
+          "ext": "txt",
+          "pct": 0,
+          "lines": 1276
+        }
+      ],
+      "dead": 149,
+      "deadPct": 2.9,
+      "circular": 1,
+      "godObjects": 1,
+      "avgCoupling": 11,
+      "securityIssues": 143,
+      "patterns": 8,
+      "duplicates": 35,
+      "layerViolations": 1289,
+      "connections": 12530,
+      "avgFnLines": 15.7,
+      "longestFn": 16,
+      "testFiles": 170,
+      "testRatio": 14.9,
+      "topFolders": [
+        {
+          "name": "server",
+          "count": 515
+        },
+        {
+          "name": "tests",
+          "count": 176
+        },
+        {
+          "name": "scripts",
+          "count": 171
+        },
+        {
+          "name": "client",
+          "count": 169
+        },
+        {
+          "name": "docs",
+          "count": 49
+        }
+      ],
+      "folders": 5,
+      "grade": "F",
+      "score": 54,
+      "topBlast": {
+        "path": "client/index.html",
+        "direct": 818,
+        "transitive": 1092,
+        "total": 1910
+      },
+      "fragility": [
+        {
+          "path": "client/index.html",
+          "direct": 818,
+          "transitive": 1092,
+          "total": 1910
+        },
+        {
+          "path": "server/recursive-llm.ts",
+          "direct": 501,
+          "transitive": 1070,
+          "total": 1571
+        },
+        {
+          "path": "scripts/release.sh",
+          "direct": 418,
+          "transitive": 1039,
+          "total": 1457
+        }
+      ]
+    }
+  ]
+}
