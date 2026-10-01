@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "at": "2026-10-01T07:28:46.169Z",
+      "sha": "8be1a421fa29973dcd34106954e4f35927a2af5b",
+      "pr": null,
+      "actor": "tranzmatt",
+      "files": 2136,
+      "functions": 7657,
+      "loc": 559540,
+      "languages": 18,
+      "topLanguages": [
+        {
+          "ext": "ts",
+          "pct": 72,
+          "lines": 401147
+        },
+        {
+          "ext": "tsx",
+          "pct": 11,
+          "lines": 59183
+        },
+        {
+          "ext": "json",
+          "pct": 9,
+          "lines": 48173
+        },
+        {
+          "ext": "md",
+          "pct": 4,
+          "lines": 21511
+        },
+        {
+          "ext": "sql",
+          "pct": 4,
+          "lines": 21090
+        }
+      ],
+      "dead": 154,
+      "deadPct": 2,
+      "circular": 1,
+      "godObjects": 1,
+      "avgCoupling": 11.6,
+      "securityIssues": 226,
+      "patterns": 9,
+      "duplicates": 40,
+      "layerViolations": 2763,
+      "connections": 24688,
+      "avgFnLines": 15.7,
+      "longestFn": 16,
+      "testFiles": 477,
+      "testRatio": 22.3,
+      "topFolders": [
+        {
+          "name": "server",
+          "count": 997
+        },
+        {
+          "name": "tests",
+          "count": 488
+        },
+        {
+          "name": "scripts",
+          "count": 251
+        },
+        {
+          "name": "client",
+          "count": 202
+        },
+        {
+          "name": "docs",
+          "count": 95
+        }
+      ],
+      "folders": 5,
+      "grade": "F",
+      "score": 55,
+      "topBlast": {
+        "path": "client/index.html",
+        "direct": 1312,
+        "transitive": 2062,
+        "total": 3374
+      },
+      "fragility": [
+        {
+          "path": "client/index.html",
+          "direct": 1312,
+          "transitive": 2062,
+          "total": 3374
+        },
+        {
+          "path": "server/claude-runner.ts",
+          "direct": 1168,
+          "transitive": 2060,
+          "total": 3228
+        },
+        {
+          "path": "server/recursive-llm.ts",
+          "direct": 802,
+          "transitive": 2054,
+          "total": 2856
+        }
+      ]
+    }
+  ]
+}
