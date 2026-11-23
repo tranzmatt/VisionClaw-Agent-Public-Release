@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "at": "2026-11-23T10:13:48.102Z",
+      "sha": "3120425d7736d8b674f1f7cb0cb38c107a2771ec",
+      "pr": null,
+      "actor": "tranzmatt",
+      "files": 3286,
+      "functions": 9848,
+      "loc": 718377,
+      "languages": 19,
+      "topLanguages": [
+        {
+          "ext": "ts",
+          "pct": 71,
+          "lines": 510048
+        },
+        {
+          "ext": "json",
+          "pct": 10,
+          "lines": 69329
+        },
+        {
+          "ext": "tsx",
+          "pct": 9,
+          "lines": 66651
+        },
+        {
+          "ext": "md",
+          "pct": 5,
+          "lines": 37044
+        },
+        {
+          "ext": "sql",
+          "pct": 4,
+          "lines": 25309
+        }
+      ],
+      "dead": 156,
+      "deadPct": 1.6,
+      "circular": 1,
+      "godObjects": 1,
+      "avgCoupling": 12.9,
+      "securityIssues": 347,
+      "patterns": 11,
+      "duplicates": 47,
+      "layerViolations": 3657,
+      "connections": 42315,
+      "avgFnLines": 15.6,
+      "longestFn": 16,
+      "testFiles": 959,
+      "testRatio": 29.2,
+      "topFolders": [
+        {
+          "name": "server",
+          "count": 1369
+        },
+        {
+          "name": "tests",
+          "count": 974
+        },
+        {
+          "name": "scripts",
+          "count": 327
+        },
+        {
+          "name": "client",
+          "count": 245
+        },
+        {
+          "name": "docs",
+          "count": 213
+        }
+      ],
+      "folders": 5,
+      "grade": "F",
+      "score": 55,
+      "topBlast": {
+        "path": "client/index.html",
+        "direct": 1957,
+        "transitive": 3142,
+        "total": 5099
+      },
+      "fragility": [
+        {
+          "path": "client/index.html",
+          "direct": 1957,
+          "transitive": 3142,
+          "total": 5099
+        },
+        {
+          "path": "server/claude-runner.ts",
+          "direct": 1699,
+          "transitive": 3141,
+          "total": 4840
+        },
+        {
+          "path": "client/src/components/treasury-saved-comparisons.tsx",
+          "direct": 1368,
+          "transitive": 3142,
+          "total": 4510
+        }
+      ]
+    }
+  ]
+}
